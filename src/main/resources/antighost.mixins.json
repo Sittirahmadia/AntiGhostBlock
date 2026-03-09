@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "antighost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InteractionMixin",
+    "KnockbackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

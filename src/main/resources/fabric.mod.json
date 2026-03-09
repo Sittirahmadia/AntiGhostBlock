@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "antighost",
+  "version": "${version}",
+  "name": "AntiGhostBlock",
+  "description": "Eliminates ghost blocks. Keybind resync, knockback resync, respawn resync, configurable.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["antighost.AntiGhostBlock"]
+  },
+  "mixins": ["antighost.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "1.21",
+    "fabric-api": "*"
+  }
+}
